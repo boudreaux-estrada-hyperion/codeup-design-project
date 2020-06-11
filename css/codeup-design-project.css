@@ -1,4 +1,35 @@
+/* For codeup-design-project.html */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Anton', sans-serif;
+}
 
+
+h1 {
+    font-size: 64px;
+}
+
+h2 {
+    48px;
+}
+
+h3 {
+    40px;
+}
+
+h4 {
+    32px;
+}
+
+h5 {
+    28px;
+}
+
+p {
+    font-family: 'Abel', sans-serif;
+}
+
+
+/*
 #E6563B red
 
 #EB9D3A orange
@@ -10,12 +41,7 @@
 #F0F0F0 off white
 
 #E6E6E6 gray
-
-font-family: 'Anton', sans-serif;
-
-font-family: 'Abel', sans-serif;
-
 dots 18x18
        logo 105x105
                big dot 105x105
-
+*/
