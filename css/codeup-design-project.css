@@ -29,6 +29,17 @@ p {
 }
 
 
+/* Test circle - change/delete */
+.col-6>h2 {
+    height: 105px;
+    width: 105px;
+    background-color: #E6563B;
+    border: 2px white solid;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+
 /*
 #E6563B red
 
