@@ -46,12 +46,9 @@ p {
     color: white;
 }
 
-.big-dot-space {
-
-}
-
 div>img {
     border: 1em #E6E6E6 solid;
+    border-radius: 5px;
 }
 
 span.dot {
@@ -85,18 +82,19 @@ span.dot {
 }
 
 /*
+
+Colors to use:
+Dots:
 #E6563B red
-
 #EB9D3A orange
-
 #7CB06C green
-
 #00ABA9 teal
-
 #F0F0F0 off white
-
 #E6E6E6 gray
+
+Element sizes:
 dots 18x18
-       logo 105x105
-               big dot 105x105
+logo 105x105
+big dot 105x105
+thumbnails 64x64
 */
