@@ -46,11 +46,6 @@ p {
     color: white;
 }
 
-div>img {
-    border: 1em #E6E6E6 solid;
-    border-radius: 5px;
-}
-
 span.dot {
     font-family: 'Anton', sans-serif;
 }
@@ -81,11 +76,15 @@ span.dot {
     background-color: #00ABA9;
 }
 
+#frontera {
+    border-width: .5rem !important;
+}
+
 
 /*
 
 Colors to use:
-Dots:
+
 #E6563B red
 #EB9D3A orange
 #7CB06C green
