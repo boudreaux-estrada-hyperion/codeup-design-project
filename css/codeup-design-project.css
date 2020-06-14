@@ -1,37 +1,66 @@
 /* For codeup-design-project.html */
-#parent {
-    background-color: #F0F0F0;
+#parent  {
+    background-color: #F5F5F5;
+    /* Sets 1em for #parent children */
+    font-size: 32px;
 }
 
+/* sets heading font sizes, family and upper case */
+#parent  h1 {
+    font-size: 64px;
+}
+
+#parent  h2 {
+    font-size: 48px;
+}
+#parent  h3 {
+    font-size: 40px;
+}
+#parent  h4 {
+    font-size: 32px;
+}
+#parent  h5 {
+    font-size: 28px;
+}
+#parent  h6 {
+    font-size: 24px;
+}
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Anton', sans-serif;
     text-transform: uppercase;
 }
 
+
+
 p, span {
     font-family: 'Abel', sans-serif;
     text-transform: uppercase;
-    font-size: .75em;
+    font-size: ;
 }
 
+
+/* navbar attributes */
 #logo-border {
     border-top: 5em solid !important;
     border-bottom: 5em solid !important;
 }
 
-.branding-corp {
-    font-size: 2rem;
+#branding-corp {
+    font-size: ;
     text-transform: lowercase;
 }
 
+
+
+/* sets both small and big dot attributes */
 .big-dot {
     height: 105px;
     width: 105px;
-    border: .5rem white solid;
+    border: 10.5px white solid;
     border-radius: 50%;
     display: inline-block;
     text-align: center;
-    padding-top: 2rem;
+    padding-top: 2rem; /* verify this*/
     color: white;
 }
 
@@ -62,6 +91,8 @@ p, span {
     background-color: #00ABA9;
 }
 
+
+/* sets specifics for last section --may need to remove--*/
 #thumb-border {
     border-width: .5rem !important;
 }
