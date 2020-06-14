@@ -22,7 +22,7 @@
 #parent h5 {
     font-size: 28px;
 }
-#parent  h6 {
+#parent h6 {
     font-size: 24px;
 }
 h1, h2, h3, h4, h5, h6 {
@@ -54,18 +54,18 @@ p, span {
 .big-dot {
     height: 210px;
     width: 210px;
-    border: 1px white solid;
+    border: 1rem white solid;
     border-radius: 50%;
     display: inline-block;
     text-align: center;
     padding-top: 2rem; /* verify this*/
     color: white;
-
+}
 /* sets medium dot attributes */
 .medium-dot {
     height: 105px;
     width: 105px;
-    border: 1px white solid;
+    border: .25em white solid;
     border-radius: 50%;
     display: inline-block;
     text-align: center;
@@ -86,8 +86,8 @@ p, span {
 }
 
 /* sets all dot attributes */
-#dot-red {
-    background: #E6563B !important;
+.dot-red {
+    background: #E6563B;
 }
 
 .dot-orange {
