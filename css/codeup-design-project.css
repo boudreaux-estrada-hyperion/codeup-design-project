@@ -14,12 +14,14 @@ p, span {
     font-size: .75em;
 }
 
-.last-tweet {
-    font-size: 1.25em;
+#logo-border {
+    border-top: 5em solid !important;
+    border-bottom: 5em solid !important;
 }
 
-.twitter {
-    text-transform: none;
+.branding-corp {
+    font-size: 2rem;
+    text-transform: lowercase;
 }
 
 .big-dot {
@@ -64,7 +66,13 @@ p, span {
     border-width: .5rem !important;
 }
 
+.last-tweet {
+    font-size: 1.25em;
+}
 
+.twitter {
+    text-transform: none;
+}
 
 /*
 
