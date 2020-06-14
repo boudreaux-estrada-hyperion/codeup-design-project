@@ -1,6 +1,6 @@
 /* For codeup-design-project.html */
 #parent  {
-    background-color: #F5F5F5;
+    background-color: #F0F0F0;
     /* Sets 1em for #parent children */
     font-size: 32px;
 }
@@ -13,13 +13,13 @@
 #parent  h2 {
     font-size: 48px;
 }
-#parent  h3 {
+#parent h3 {
     font-size: 40px;
 }
 #parent  h4 {
     font-size: 32px;
 }
-#parent  h5 {
+#parent h5 {
     font-size: 28px;
 }
 #parent  h6 {
@@ -50,13 +50,22 @@ p, span {
     text-transform: lowercase;
 }
 
-
-
-/* sets both small and big dot attributes */
+/* sets big dot attributes */
 .big-dot {
+    height: 210px;
+    width: 210px;
+    border: 1px white solid;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    padding-top: 2rem; /* verify this*/
+    color: white;
+
+/* sets medium dot attributes */
+.medium-dot {
     height: 105px;
     width: 105px;
-    border: 10.5px white solid;
+    border: 1px white solid;
     border-radius: 50%;
     display: inline-block;
     text-align: center;
@@ -64,7 +73,8 @@ p, span {
     color: white;
 }
 
-.dot {
+/* sets small dot attributes */
+.small-dot {
     height: 18px;
     width: 18px;
     border-radius: 50%;
@@ -75,8 +85,9 @@ p, span {
     padding-top: 3px;
 }
 
-.dot-red {
-    background-color: #E6563B;
+/* sets all dot attributes */
+#dot-red {
+    background: #E6563B !important;
 }
 
 .dot-orange {
