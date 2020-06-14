@@ -14,7 +14,7 @@
 <body>
 
 <!-- parent container for page -->
-<div class="container mt-0 p-0" id="parent">
+<div class="container mt-0 ml-6 py-0 px-1" id="parent">
 
 
     <!-- Navbar - placeholder - incomplete -->
@@ -67,23 +67,32 @@
     <div class="col-lg-1"></div>
     <!-- header/company info -->
 
-    <div class="container text-center mb-5 mx-0 col-lg-10 bg-transparent">
+    <div class="col-lg-10 bg-transparent text-center mb-5 pl-0 pr-0">
         <div class="row">
-            <div class="col-12 my-3">
-                <h1 class="">Visual design & web development</h1>
+            <div class="d-sm-none">
+                <div class="col-12 my-5 mx-0">
+                    <h1>Visual design & web development</h1>
+                </div>
+                <div class="col-12 my-5 py-3">
+                    <h2>From Park City, Utah</h2>
+                </div>
             </div>
-            <div class="col-12 my-5 py-3">
-                <h2>From Park City, Utah</h2>
+            <div class="d-none d-sm-block mx-auto">
+                <div class="col-12 my-3 px-0">
+                    <h3>Visual design & web development</h3>
+                </div>
+                <div class="col-12 mt-5 py-1">
+                    <h4>From Park City, Utah</h4>
+                </div>
             </div>
-
-            <div class="row justify-content-center d-sm-none my-3">
+            <div class="row justify-content-center d-sm-none my-5">
                 <div class="col-auto">
                     <h3 class="big-dot dot-red">Design</h3>
                 </div>
                 <div class="col-auto">
                     <h3 class="big-dot dot-orange">Develop</h3>
                 </div>
-               <div class="w-100 d-sm-none"></div>
+                <div class="w-100 d-sm-none"></div>
                 <div class="col-auto">
                     <h3 class="big-dot dot-green">Support</h3>
                 </div>
@@ -93,171 +102,182 @@
             </div>
         </div>
 
-        <div class="row d-none d-sm-block mx-auto my-3 py-3">
-            <div class="row py-3">
-                <div class="col-lg-1 col-md-2 d-md-none d-lg-block"></div>
-                <div class="col-lg-1 col-md-2 d-sm-none d-md-block"></div>
-                <div class="col-md-2 col-sm-3">
-                    <h5 class="medium-dot dot-red">Design</h5>
-                </div>
-                <div class="col-md-2 col-sm-3">
-                    <h5 class="medium-dot dot-orange">Develop</h5>
-                </div>
-                <div class="col-md-2 col-sm-3">
-                    <h5 class="medium-dot dot-green">Support</h5>
-                </div>
-                <div class="col-md-2 col-sm-3">
-                    <h5 class="medium-dot dot-teal">Host</h5>
-                </div>
-                <div class="col-lg-1 col-md-2 d-sm-none d-md-block"></div>
-                <div class="col-lg-1 col-md-2 d-md-none d-lg-block"></div>
+        <div class="row d-none d-sm-block my-1 py-1">
 
-            </div>
-            <div class="d-none d-sm-block">
-                <hr>
+            <div class="col-1"></div>
+            <div class="col-10 mx-auto">
+                <div class="row pt-3 pt-0 mb-0">
+
+                    <div class="col-3">
+                        <p class="medium-dot dot-red">Design</p>
+                    </div>
+                    <div class="col-3">
+                        <p class="medium-dot dot-orange">Develop</p>
+                    </div>
+                    <div class="col-3">
+                        <p class="medium-dot dot-green">Support</p>
+                    </div>
+                    <div class="col-3">
+                        <p class="medium-dot dot-teal">Host</p>
+                    </div>
+
+                </div>
+
             </div>
         </div>
 
+        <div class="col-1"></div>
+    </div>
 
-        <!-- Showcase/Selected work -->
+    <!-- hard rule -->
 
-        <div class="row my-4">
-            <div class="col">
-                <div class="row">
-                    <div class="col">
-                        <p class="d-md-none text-center">Selected Work</p>
-                        <p class="d-none d-md-block text-left">Selected Work</p>
-                        <div class="row">
+    <div class="row d-none d-sm-block mt-5 pt-5">
+        <div class="col-1"></div>
+            <div class="col-10 m-auto">
+                <hr class="border">
+            </div>
+        <div class="col-1"></div>
+    </div>
 
-                            <div class="col col-sm-6 my-1 mx-3">
-                                <img class="img-fluid border rounded" id="thumb-border" src="img/apple-ipad.jpg"
-                                     alt="apples and ipad">
-                                <div class="row mx-0 my-1 px-0">
-                                    <span class="py-1">Featured Project</span>
-                                    <div class="ml-auto my-0 py-0">
-                                        <span class="small-dot dot-red">D</span>
+    <!-- Showcase/Selected work -->
 
-                                        <span class="small-dot dot-orange">D</span>
+    <div class="row my-4">
+        <div class="col">
+            <div class="row">
+                <div class="col">
+                    <p class="d-md-none text-center mt-1 mb-5">Selected Work</p>
+                    <p class="d-none d-md-block text-left">Selected Work</p>
+                    <div class="row">
 
-                                        <span class="small-dot dot-green">S</span>
+                        <div class="col col-sm-6 my-1 mx-3">
+                            <img class="img-fluid border rounded" id="thumb-border" src="img/apple-ipad.jpg"
+                                 alt="apples and ipad">
+                            <div class="row mx-0 my-1 px-0">
+                                <span class="py-1">Featured Project</span>
+                                <div class="ml-auto my-0 py-0">
+                                    <span class="small-dot dot-red">D</span>
 
-                                        <span class="small-dot dot-teal">H</span>
-                                    </div>
+                                    <span class="small-dot dot-orange">D</span>
+
+                                    <span class="small-dot dot-green">S</span>
+
+                                    <span class="small-dot dot-teal">H</span>
                                 </div>
                             </div>
-                            <div class="col-6 d-none d-sm-block my-1">
-                                <img class="img-fluid border rounded" id="thumb-border" src="img/macbook.jpg"
-                                     alt="macbook">
-                                <div class="row mx-0 my-1 px-0">
-                                    <span class="py-1">Featured Project</span>
-                                    <div class="ml-auto my-0 py-0">
-                                        <span class="small-dot dot-red">D</span>
+                        </div>
+                        <div class="col-6 d-none d-sm-block my-1">
+                            <img class="img-fluid border rounded" id="thumb-border" src="img/macbook.jpg"
+                                 alt="macbook">
+                            <div class="row mx-0 my-1 px-0">
+                                <span class="py-1">Featured Project</span>
+                                <div class="ml-auto my-0 py-0">
+                                    <span class="small-dot dot-red">D</span>
 
-                                        <span class="small-dot dot-orange">D</span>
+                                    <span class="small-dot dot-orange">D</span>
 
-                                        <span class="small-dot dot-green">S</span>
+                                    <span class="small-dot dot-green">S</span>
 
-                                        <span class="small-dot dot-teal">H</span>
-                                    </div>
+                                    <span class="small-dot dot-teal">H</span>
                                 </div>
                             </div>
-                            <div class="col-6 d-none d-sm-block my-1">
-                                <img class="img-fluid border rounded" id="thumb-border" src="img/man.jpg"
-                                     alt="man's face">
-                                <div class="row mx-0 my-1 px-0">
-                                    <span class="py-1">Featured Project</span>
-                                    <div class="ml-auto my-0 py-0">
-                                        <span class="small-dot dot-red">D</span>
+                        </div>
+                        <div class="col-6 d-none d-sm-block my-1">
+                            <img class="img-fluid border rounded" id="thumb-border" src="img/man.jpg"
+                                 alt="man's face">
+                            <div class="row mx-0 my-1 px-0">
+                                <span class="py-1">Featured Project</span>
+                                <div class="ml-auto my-0 py-0">
+                                    <span class="small-dot dot-red">D</span>
 
-                                        <span class="small-dot dot-orange">D</span>
+                                    <span class="small-dot dot-orange">D</span>
 
-                                        <span class="small-dot dot-green">S</span>
+                                    <span class="small-dot dot-green">S</span>
 
-                                        <span class="small-dot dot-teal">H</span>
-                                    </div>
+                                    <span class="small-dot dot-teal">H</span>
                                 </div>
                             </div>
-                            <div class="col-6 d-none d-sm-block my-1">
-                                <img class="img-fluid border rounded" id="thumb-border" src="img/security.jpg"
-                                     alt="cursor pointing at security">
-                                <div class="row mx-0 my-1 px-0">
-                                    <span class="py-1">Featured Project</span>
-                                    <div class="ml-auto my-0 py-0">
-                                        <span class="small-dot dot-red">D</span>
+                        </div>
+                        <div class="col-6 d-none d-sm-block my-1">
+                            <img class="img-fluid border rounded" id="thumb-border" src="img/security.jpg"
+                                 alt="cursor pointing at security">
+                            <div class="row mx-0 my-1 px-0">
+                                <span class="py-1">Featured Project</span>
+                                <div class="ml-auto my-0 py-0">
+                                    <span class="small-dot dot-red">D</span>
 
-                                        <span class="small-dot dot-orange">D</span>
+                                    <span class="small-dot dot-orange">D</span>
 
-                                        <span class="small-dot dot-green">S</span>
+                                    <span class="small-dot dot-green">S</span>
 
-                                        <span class="small-dot dot-teal">H</span>
-                                    </div>
+                                    <span class="small-dot dot-teal">H</span>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
 
-            <!-- last element -->
-            <div class="col-4 d-none d-md-block">
-                <div class="row">
-                    <p class="ml-3">The Last</p>
-                </div>
-                <div class="row mt-1">
-                    <div class="col-4">
+        <!-- last element -->
+        <div class="col-4 d-none d-md-block">
+            <div class="row">
+                <p class="ml-3">The Last</p>
+            </div>
+            <div class="row mt-1">
+                <div class="col-4">
                     <span class="border-0">
                         <img src="img/mobile-phone.jpg" height="64" width="64" class="border rounded">
                          </span>
-                    </div>
-                    <div class="col-8 text-left">
-                        <h6>The Admin Bar and Absolute Positioning</h6>
-                    </div>
                 </div>
-                <br>
-                <div class="row">
-                    <div class="col-4">
+                <div class="col-8 text-left">
+                    <h6>The Admin Bar and Absolute Positioning</h6>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-4">
                          <span class="border-0">
                     <img src="img/head.jpg" height="64" width="64" class="border rounded">
                     </span>
-                    </div>
-                    <div class="col-8 text-left">
-                        <h6>Nibbler Awesome Website Testing</h6>
-                    </div>
                 </div>
-                <br>
-                <div class="row">
-                    <div class="col-4">
+                <div class="col-8 text-left">
+                    <h6>Nibbler Awesome Website Testing</h6>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-4">
                      <span class="border-0">
                     <img src="img/ipad.jpg" height="64" width="64" class="border rounded">
                     </span>
-                    </div>
-                    <div class="col-8 text-left">
-                        <h6>How To Get Google To Like You</h6>
-                    </div>
                 </div>
-                <br>
-                <div class="row">
+                <div class="col-8 text-left">
+                    <h6>How To Get Google To Like You</h6>
+                </div>
+            </div>
+            <br>
+            <div class="row">
 
                     <span class="ml-1">
                         <img class="img-fluid" src="img/iconfinder_twitter_173834.png" height="50" width="50"><span
                             class="last-tweet">Last Tweet</span>
                     </span>
 
-                    <div class="text-left ml-1 pl-1">
-                        <p class="twitter">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium
-                            blanditiis
-                            cupiditate deleniti incidunt sint? Accusamus aliquam cumque deserunt earum enim et, neque,
-                            non
-                            perspiciatis quibusdam reprehenderit repudiandae sapiente temporibus voluptas.</p>
-                    </div>
+                <div class="text-left ml-1 pl-1">
+                    <p class="twitter">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium
+                        blanditiis
+                        cupiditate deleniti incidunt sint? Accusamus aliquam cumque deserunt earum enim et, neque,
+                        non
+                        perspiciatis quibusdam reprehenderit repudiandae sapiente temporibus voluptas.</p>
                 </div>
             </div>
         </div>
-
-        <div class="col-lg-1"></div>
-        <!-- Blank footer to add space for readability-->
-        <footer class="card"></footer>
     </div>
+
+    <div class="col-lg-1"></div>
+    <!-- Blank footer to add space for readability-->
+    <footer class="card"></footer>
+</div>
 </div>
 
 <!-- Bootstrap Links -->

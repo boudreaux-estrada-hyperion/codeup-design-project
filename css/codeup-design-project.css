@@ -1,11 +1,16 @@
 /* For codeup-design-project.html */
 #parent  {
     background-color: #F0F0F0;
-    /* Sets 1em for #parent children */
     font-size: 32px;
 }
 
 /* sets heading font sizes, family and upper case */
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Anton', sans-serif;
+    text-transform: uppercase;
+}
+
 #parent  h1 {
     font-size: 64px;
 }
@@ -25,19 +30,18 @@
 #parent h6 {
     font-size: 24px;
 }
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Anton', sans-serif;
-    text-transform: uppercase;
-}
+
 
 
 
 p, span {
     font-family: 'Abel', sans-serif;
     text-transform: uppercase;
-    font-size: ;
 }
 
+p {
+    font-size: 32px;
+}
 
 /* navbar attributes */
 #logo-border {
@@ -54,7 +58,7 @@ p, span {
 .big-dot {
     height: 210px;
     width: 210px;
-    border: 1rem white solid;
+    border: .25em white solid;
     border-radius: 50%;
     display: inline-block;
     text-align: center;
@@ -69,12 +73,30 @@ p, span {
     border-radius: 50%;
     display: inline-block;
     text-align: center;
-    padding-top: 33%;
+    font-family: 'Anton', sans-serif;
+    font-size: 20px;
+    padding-top: 27%;
     color: white;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
 }
+
 
 /* sets small dot attributes */
 .small-dot {
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Anton', sans-serif;
+    padding-top: 6px;
+}
+
+.tiny-dot {
     height: 18px;
     width: 18px;
     border-radius: 50%;
