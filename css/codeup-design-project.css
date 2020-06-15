@@ -1,111 +1,39 @@
 /* For codeup-design-project.html */
-#parent  {
+#parent {
     background-color: #F0F0F0;
-    font-size: 32px;
 }
-
-/* sets heading font sizes, family and upper case */
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Anton', sans-serif;
     text-transform: uppercase;
 }
 
-#parent  h1 {
-    font-size: 64px;
-}
-
-#parent  h2 {
-    font-size: 48px;
-}
-#parent h3 {
-    font-size: 40px;
-}
-#parent  h4 {
-    font-size: 32px;
-}
-#parent h5 {
-    font-size: 28px;
-}
-#parent h6 {
-    font-size: 24px;
-}
-
-
-
-
 p, span {
     font-family: 'Abel', sans-serif;
     text-transform: uppercase;
+    font-size: .75em;
 }
 
-p {
-    font-size: 32px;
+.last-tweet {
+    font-size: 1.25em;
 }
 
-span {
-    font-size: 14px
+.twitter {
+    text-transform: none;
 }
 
-#extra-small {
-    font-size: 28px;
-}
-
-/* navbar attributes */
-#logo-border {
-    border-top: 5em solid !important;
-    border-bottom: 5em solid !important;
-}
-
-#branding-corp {
-    font-size: ;
-    text-transform: lowercase;
-}
-
-/* sets big dot attributes */
 .big-dot {
-    height: 210px;
-    width: 210px;
-    border: .25em white solid;
-    border-radius: 50%;
-    display: inline-block;
-    text-align: center;
-    padding-top: 33%;
-    color: white;
-}
-
-/* sets medium dot attributes */
-.medium-dot {
     height: 105px;
     width: 105px;
-    border: .25em white solid;
+    border: .5rem white solid;
     border-radius: 50%;
     display: inline-block;
     text-align: center;
-    font-family: 'Anton', sans-serif;
-    font-size: 20px;
-    padding-top: 27%;
+    padding-top: 2rem;
     color: white;
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin: auto;
 }
 
-
-/* sets small dot attributes */
-.small-dot {
-    height: 36px;
-    width: 36px;
-    border-radius: 50%;
-    display: inline-block;
-    text-align: center;
-    font-size: 18px;
-    font-family: 'Anton', sans-serif;
-    padding-top: 6px;
-}
-
-.tiny-dot {
+.dot {
     height: 18px;
     width: 18px;
     border-radius: 50%;
@@ -116,9 +44,8 @@ span {
     padding-top: 3px;
 }
 
-/* sets all dot attributes */
 .dot-red {
-    background: #E6563B;
+    background-color: #E6563B;
 }
 
 .dot-orange {
@@ -133,19 +60,11 @@ span {
     background-color: #00ABA9;
 }
 
-
-/* sets specifics for last section --may need to remove--*/
-#thumb-border {
+#image-border {
     border-width: .5rem !important;
 }
 
-.last-tweet {
-    font-size: 1.25em;
-}
 
-.twitter {
-    text-transform: none;
-}
 
 /*
 
