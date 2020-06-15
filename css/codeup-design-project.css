@@ -23,6 +23,17 @@ p, span {
 }
 
 .big-dot {
+    height: 210px;
+    width: 210px;
+    border: .5rem white solid;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    padding-top: 2rem;
+    color: white;
+}
+
+.medium-dot {
     height: 105px;
     width: 105px;
     border: .5rem white solid;
@@ -33,7 +44,18 @@ p, span {
     color: white;
 }
 
-.dot {
+.small-dot {
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Anton', sans-serif;
+    padding-top: 9px;
+}
+
+.tiny-dot {
     height: 18px;
     width: 18px;
     border-radius: 50%;
