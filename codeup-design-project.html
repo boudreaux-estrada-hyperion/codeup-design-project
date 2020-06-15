@@ -14,7 +14,7 @@
 <body>
 
 <!-- parent container for page -->
-<div class="container mt-0 ml-6 py-0 px-1" id="parent">
+<div class="container mt-0 mx-auto py-0 px-1" id="parent">
 
 
     <!-- Navbar - placeholder - incomplete -->
@@ -64,42 +64,56 @@
         </div>
     </nav>
 
-    <div class="col-lg-1"></div>
-    <!-- header/company info -->
 
-    <div class="col-lg-10 bg-transparent text-center mb-5 pl-0 pr-0">
-        <div class="row">
-            <div class="d-sm-none">
-                <div class="col-12 my-5 mx-0">
-                    <h1>Visual design & web development</h1>
+    <!-- header/company info -->
+    <div class="row">
+        <div class="col-lg-12 text-center mb-5">
+            <div class="row">
+                <div class="col my-5 d-sm-none">
+                        <h1>Visual design & web development</h1>
+                    </div>
+                    <div class="col d-none d-sm-block my-3 px-0">
+                        <h3>Visual design & web development</h3>
+                    </div>
                 </div>
-                <div class="col-12 my-5 py-3">
-                    <h2>From Park City, Utah</h2>
+        </div>
+
+
+                <!-- Sibling to the visual & web dev element -->
+        <div class="col-1"></div>
+        <div class="col-10 my-5 py-3">
+
+            <div class="row d-block d-sm-none">
+               <h2>From Park City, Utah</h2>
+            </div>
+            <div class="col mt-5 py-1">
+                <h4>From Park City, Utah</h4>
+            </div>
+             <div class="row justify-content-center d-sm-none my-5">
+                    <div class="col-auto">
+                        <h3 class="big-dot dot-red">Design</h3>
+                    </div>
+                    <div class="col-auto">
+                        <h3 class="big-dot dot-orange">Develop</h3>
+                    </div>
+                    <div class="w-100 d-sm-none"></div>
+                    <div class="col-auto">
+                        <h3 class="big-dot dot-green">Support</h3>
+                    </div>
+                    <div class="col-auto">
+                        <h3 class="big-dot dot-teal">Host</h3>
+                    </div>
                 </div>
             </div>
-            <div class="d-none d-sm-block mx-auto">
-                <div class="col-12 my-3 px-0">
-                    <h3>Visual design & web development</h3>
-                </div>
-                <div class="col-12 mt-5 py-1">
-                    <h4>From Park City, Utah</h4>
-                </div>
+
+            <div class="col-lg-12 d-none d-sm-block mb-5">
+
             </div>
-            <div class="row justify-content-center d-sm-none my-5">
-                <div class="col-auto">
-                    <h3 class="big-dot dot-red">Design</h3>
-                </div>
-                <div class="col-auto">
-                    <h3 class="big-dot dot-orange">Develop</h3>
-                </div>
-                <div class="w-100 d-sm-none"></div>
-                <div class="col-auto">
-                    <h3 class="big-dot dot-green">Support</h3>
-                </div>
-                <div class="col-auto">
-                    <h3 class="big-dot dot-teal">Host</h3>
-                </div>
+            <div class="row d-none d-sm-block mx-auto">
+
+
             </div>
+
         </div>
 
         <div class="row d-none d-sm-block my-1 py-1">
@@ -152,31 +166,30 @@
                                  alt="apples and ipad">
 
 
-                                    <span class="d-block d-sm-none py-1" id="extra-small">Featured Project</span>
-                                    <div class="d-block d-sm-none my-0 py-0">
-                                        <span class="small-dot dot-red">D</span>
+                            <span class="d-block d-sm-none py-1" id="extra-small">Featured Project</span>
+                            <div class="d-block d-sm-none my-0 py-0">
+                                <span class="small-dot dot-red">D</span>
 
-                                        <span class="small-dot dot-orange">D</span>
+                                <span class="small-dot dot-orange">D</span>
 
-                                        <span class="small-dot dot-green">S</span>
+                                <span class="small-dot dot-green">S</span>
 
-                                        <span class="small-dot dot-teal">H</span>
-                                    </div>
+                                <span class="small-dot dot-teal">H</span>
+                            </div>
 
-                                    <span class="d-none d-sm-block py-1">Featured Project</span>
-                                    <div class="d-none d-sm-block ml-auto my-0 py-0">
-                                        <span class="tiny-dot dot-red">D</span>
+                            <span class="d-none d-sm-block py-1">Featured Project</span>
+                            <div class="d-none d-sm-block ml-auto my-0 py-0">
+                                <span class="tiny-dot dot-red">D</span>
 
-                                        <span class="tiny-dot dot-orange">D</span>
+                                <span class="tiny-dot dot-orange">D</span>
 
-                                        <span class="tiny-dot dot-green">S</span>
+                                <span class="tiny-dot dot-green">S</span>
 
-                                        <span class="tiny-dot dot-teal">H</span>
-                                    </div>
+                                <span class="tiny-dot dot-teal">H</span>
+                            </div>
 
 
                         </div>
-
 
 
                         <div class="col-6 d-none d-sm-block my-1">
@@ -287,11 +300,9 @@
             </div>
         </div>
     </div>
-
-    <div class="col-lg-1"></div>
     <!-- Blank footer to add space for readability-->
     <footer class="card"></footer>
-</div>
+
 
 <!-- Bootstrap Links -->
 <bootstrap>
