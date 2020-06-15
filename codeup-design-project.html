@@ -19,7 +19,7 @@
 
     <!-- Navbar - placeholder - incomplete -->
 
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="navbar navbar-expand-lg navbar-light d-sm-none">
         <div class="col">
             <div class="row">
                 <div class="col-1 d-lg-none"></div>
@@ -27,33 +27,72 @@
                     <a class="navbar-brand" href="#"><img src="img/logo.png" alt="company logo" class="img-fluid"></a>
                     <h1><p class="font-weight-normal text-center">codeup design</p></h1>
                 </div>
-<div class="text-center d-inline mx-auto">
-    <div class="row">
-                <div class="col-6">
+                <div class="text-center d-inline mx-auto">
                     <div class="row">
+                        <div class="col-6">
+                            <div class="row">
                 <span class="nav-item active">
                     <a class="nav-link text-dark" href="#">Services</a>
                 </span>
-                        <span class="nav-item active">
+                                <span class="nav-item active">
                     <a class="nav-link text-dark" href="#">Work</a>
                 </span>
-                    </div>
-                </div>
+                            </div>
+                        </div>
 
-                <div class="col-6">
-                    <div class="row">
+                        <div class="col-6">
+                            <div class="row">
                 <span class="nav-item">
                     <a class="nav-link text-dark" href="#">Blog</a>
                 </span>
-                        <span class="nav-item">
+                                <span class="nav-item">
                     <a class="nav-link text-dark" href="#">Contact</a>
                 </span>
+                            </div>
+                        </div>
+                        <div class="col-1 d-lg-none"></div>
                     </div>
                 </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Small Screen NAV Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light d-none d-sm-block">
+        <div class="col">
+                        <div class="row">
                 <div class="col-1 d-lg-none"></div>
-    </div>
+                <div class="col-10 col-lg-12">
+                    <a class="navbar-brand" href="#"><img src="img/logo.png" alt="company logo" class="img-fluid"></a>
+                    <h1><p class="font-weight-normal text-center">codeup design Small Screen</p></h1>
+                </div>
+
+                <div class="text-justify-left">
+                    <div class="col-6">
+                        <div class="row">
+                <span class="nav-item active">
+                    <a class="nav-link text-dark" href="#">Services</a>
+                </span>
+                            <span class="nav-item active">
+                    <a class="nav-link text-dark" href="#">Work</a>
+                </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-justify-right">
+                    <div class="col-6">
+                        <div class="row">
+                <span class="nav-item">
+                    <a class="nav-link text-dark" href="#">Blog</a>
+                </span>
+                            <span class="nav-item">
+                    <a class="nav-link text-dark" href="#">Contact</a>
+                </span>
+                        </div>
+                    </div>
+                </div>
             </div>
-            </div>
+            <div class="col-1 d-lg-none"></div>
         </div>
     </nav>
 
@@ -111,28 +150,45 @@
 
 
         <!-- Showcase/Selected work -->
-
-        <div class="row my-4">
+        <div class="row mt-0 mb-4">
             <div class="col">
                 <div class="row">
                     <div class="col">
-                        <p class="d-md-none text-center">Selected Work</p>
-                        <p class="d-none d-md-block text-left">Selected Work</p>
+                        <p class="d-sm-none text-center" id="xs-screen-text">Selected Work</p>
+                        <p class="d-none d-sm-block" id="sm-screen-text">Selected Work</p>
                         <div class="row">
 
                             <div class="col col-sm-6 my-1">
                                 <img class="img-fluid border rounded" id="image-border" src="img/apple-ipad.jpg"
                                      alt="apples and ipad">
-                                <div class="row mx-0 my-1 px-0">
-                                    <span class="py-1">Featured Project</span>
-                                    <div class="ml-auto my-0 py-0">
-                                        <span class="dot dot-red">D</span>
 
-                                        <span class="dot dot-orange">D</span>
+                                <div class="row d-sm-none my-1 text-center mx-0 w-100">
+                                    <div class="col-6 py-1 p-0 text-left" id="xs-screen-text">
+                                        <span>Featured Project</span>
+                                    </div>
+                                    <div class="col-6 my-0 p-0 text-right">
+                                        <span class="small-dot dot-red">D</span>
 
-                                        <span class="dot dot-green">S</span>
+                                        <span class="small-dot dot-orange">D</span>
 
-                                        <span class="dot dot-teal">H</span>
+                                        <span class="small-dot dot-green">S</span>
+
+                                        <span class="small-dot dot-teal">H</span>
+                                    </div>
+                                </div>
+
+                                <div class="row mx-auto my-1 px-0">
+                                    <div class="d-none d-sm-block py-1 p-0 text-left">
+                                        <span class="py-1">Featured Project</span>
+                                    </div>
+                                    <div class="d-none d-sm-block ml-auto my-0 p-0 text-right">
+                                        <span class="tiny-dot dot-red">D</span>
+
+                                        <span class="tiny-dot dot-orange">D</span>
+
+                                        <span class="tiny-dot dot-green">S</span>
+
+                                        <span class="tiny-dot dot-teal">H</span>
                                     </div>
                                 </div>
                             </div>
@@ -141,13 +197,13 @@
                                 <div class="row mx-0 my-1 px-0">
                                     <span class="py-1">Featured Project</span>
                                     <div class="ml-auto my-0 py-0">
-                                        <span class="dot dot-red">D</span>
+                                        <span class="tiny-dot dot-red">D</span>
 
-                                        <span class="dot dot-orange">D</span>
+                                        <span class="tiny-dot dot-orange">D</span>
 
-                                        <span class="dot dot-green">S</span>
+                                        <span class="tiny-dot dot-green">S</span>
 
-                                        <span class="dot dot-teal">H</span>
+                                        <span class="tiny-dot dot-teal">H</span>
                                     </div>
                                 </div>
                             </div>
@@ -156,13 +212,13 @@
                                 <div class="row mx-0 my-1 px-0">
                                     <span class="py-1">Featured Project</span>
                                     <div class="ml-auto my-0 py-0">
-                                        <span class="dot dot-red">D</span>
+                                        <span class="tiny-dot dot-red">D</span>
 
-                                        <span class="dot dot-orange">D</span>
+                                        <span class="tiny-dot dot-orange">D</span>
 
-                                        <span class="dot dot-green">S</span>
+                                        <span class="tiny-dot dot-green">S</span>
 
-                                        <span class="dot dot-teal">H</span>
+                                        <span class="tiny-dot dot-teal">H</span>
                                     </div>
                                 </div>
                             </div>
@@ -172,13 +228,13 @@
                                 <div class="row mx-0 my-1 px-0">
                                     <span class="py-1">Featured Project</span>
                                     <div class="ml-auto my-0 py-0">
-                                        <span class="dot dot-red">D</span>
+                                        <span class="tiny-dot dot-red">D</span>
 
-                                        <span class="dot dot-orange">D</span>
+                                        <span class="tiny-dot dot-orange">D</span>
 
-                                        <span class="dot dot-green">S</span>
+                                        <span class="tiny-dot dot-green">S</span>
 
-                                        <span class="dot dot-teal">H</span>
+                                        <span class="tiny-dot dot-teal">H</span>
                                     </div>
                                 </div>
                             </div>
@@ -186,6 +242,7 @@
                     </div>
                 </div>
             </div>
+
 
             <!-- last element -->
             <div class="col-4 d-none d-md-block">
